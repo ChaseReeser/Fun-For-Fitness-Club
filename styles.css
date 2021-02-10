@@ -47,6 +47,38 @@
   height: 25%;
 }
 
+table {
+  width: 80%;
+  display: inline-table;
+  margin-left: 9%;
+  margin-right: auto;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  background-color: lightgrey;
+}
+table, th, td {
+  border: 1px solid grey;
+  border-collapse: collapse;
+}
+th{
+  padding: 8px;
+  text-align: center;
+  width:15%;
+}
+
+td{
+  padding: 2px;
+  text-align: left;
+}
+
+.border{
+  border-left: solid blue 2px;
+}
+
+.border2{
+  border-left: solid orange 2px;
+}
+
 /* Add a black background color to the top navigation */
 .topnav {
   background-color: black;
